@@ -67,6 +67,40 @@
   <li><a href="https://log-project-xj59.onrender.com/admin/">Admin Page</a></li>
 </ul>
 
+<h2>Testing</h2>
+
+<p>To perform performance testing using Locust, follow these steps:</p>
+
+<ol>
+  <li>Navigate to the project directory <code>log_ingestor</code>:</li>
+  <code>cd log_ingestor</code>
+  
+  <li>Install Locust if you haven't already:</li>
+  <code>pip install locust</code>
+  
+  <li>Create a performance test file, for example, <code>performance_test.py</code>, with the following content:</li>
+  <pre><code>from locust import HttpUser, between, task
+
+class LogIngestorUser(HttpUser):
+    wait_time = between(1, 5)
+
+    @task
+    def search_logs(self):
+        self.client.post('/query_interface/', {
+            'level': 'info',
+            'log_string': 'Test log',
+            'source': 'test.log',
+            'start_date': '2024-05-01T00:00:00',
+            'end_date': '2024-05-31T23:59:59'
+        })</code></pre>
+  
+  <li>Run Locust with the performance test file and specify the host URL:</li>
+  <code>locust -f performance_test.py --host=http://localhost:8000</code>
+  
+  <li>Access the Locust web interface at <a href="http://localhost:8089">http://localhost:8089</a> to start the test.</li>
+</ol>
+
+
 <h2>Contributing</h2>
 
 <p>If you'd like to contribute to this project, follow these steps:</p>
