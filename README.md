@@ -42,8 +42,30 @@
   <li>Run the Django development server:</li>
   <code>python manage.py runserver</code>
   
-  <li>Access the application in your web browser at <a href="http://localhost:8000">http://localhost:8000</a>.</li>
+  <li>Access the following pages in your web browser:</li>
+  <ul>
+    <li>Log Page: <a href="http://127.0.0.1:8000/log/">http://127.0.0.1:8000/log/</a> (Requires login)</li>
+    <li>Query Interface: <a href="http://127.0.0.1:8000/query_interface/">http://127.0.0.1:8000/query_interface/</a></li>
+    <li>Admin Page: <a href="http://127.0.0.1:8000/admin/">http://127.0.0.1:8000/admin/</a></li>
+  </ul>
 </ol>
+
+<h2>Admin Credentials</h2>
+
+<p>To access the admin panel, use the following credentials:</p>
+<ul>
+  <li>Username: <strong>rajsw</strong></li>
+  <li>Password: <strong>1234</strong></li>
+</ul>
+
+<h2>Live Demo</h2>
+
+<p>A live demo of this project is available at the following URLs:</p>
+<ul>
+  <li><a href="https://log-project-xj59.onrender.com/log/">Log Page</a></li>
+  <li><a href="https://log-project-xj59.onrender.com/query_interface/">Query Interface</a></li>
+  <li><a href="https://log-project-xj59.onrender.com/admin/">Admin Page</a></li>
+</ul>
 
 <h2>Contributing</h2>
 
