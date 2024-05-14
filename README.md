@@ -1,48 +1,72 @@
-# Log Ingestor Project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log Ingestor Project</title>
+</head>
+<body>
 
-This project is a Log Ingestor built with Django, allowing users to capture logs from different APIs and query them based on various criteria.
+<h1>Log Ingestor Project</h1>
 
-## Installation
+<p>This project is a Log Ingestor built with Django, allowing users to capture logs from different APIs and query them based on various criteria.</p>
 
-Follow these steps to download the project and set it up on your local machine:
+<h2>Installation</h2>
 
-1. Clone the repository to your local machine:
-   
-   git clone <repository-url>
-2. Navigate to the project directory:
-    cd log_ingestor_project
-(Optional) Create and activate a virtual environment:  
-python -m venv env
-source env/bin/activate  # For Unix/Linux
-.\env\Scripts\activate    # For Windows
-Install the required dependencies using pip:
+<p>Follow these steps to download the project and set it up on your local machine:</p>
 
-pip install -r requirements.txt
-Usage
-Once you have set up the project, you can run it locally:
+<ol>
+  <li>Clone the repository to your local machine:</li>
+  <code>git clone &lt;repository-url&gt;</code>
+  
+  <li>Navigate to the project directory:</li>
+  <code>cd log_ingestor_project</code>
+  
+  <li>(Optional) Create and activate a virtual environment:</li>
+  <code>python -m venv env</code><br>
+  <code>source env/bin/activate  # For Unix/Linux</code><br>
+  <code>.\env\Scripts\activate    # For Windows</code>
+  
+  <li>Install the required dependencies using pip:</li>
+  <code>pip install -r requirements.txt</code>
+</ol>
 
-Navigate to the project directory if you haven't already:
+<h2>Usage</h2>
 
-cd log_ingestor_project
-Run the Django development server:
+<p>Once you have set up the project, you can run it locally:</p>
 
-python manage.py runserver
-Access the application in your web browser at http://localhost:8000.
+<ol>
+  <li>Navigate to the project directory if you haven't already:</li>
+  <code>cd log_ingestor_project</code>
+  
+  <li>Run the Django development server:</li>
+  <code>python manage.py runserver</code>
+  
+  <li>Access the application in your web browser at <a href="http://localhost:8000">http://localhost:8000</a>.</li>
+</ol>
 
-# Contributing
-If you'd like to contribute to this project, follow these steps:
+<h2>Contributing</h2>
 
-1) Fork the repository on GitHub.
-Create a new branch with a descriptive name:
+<p>If you'd like to contribute to this project, follow these steps:</p>
 
-git checkout -b feature/my-new-feature
-Make your changes and commit them to your branch:
+<ol>
+  <li>Fork the repository on GitHub.</li>
+  
+  <li>Create a new branch with a descriptive name:</li>
+  <code>git checkout -b feature/my-new-feature</code>
+  
+  <li>Make your changes and commit them to your branch:</li>
+  <code>git commit -am 'Add some feature'</code>
+  
+  <li>Push your changes to your fork:</li>
+  <code>git push origin feature/my-new-feature</code>
+  
+  <li>Create a pull request on the original repository.</li>
+</ol>
 
-git commit -am 'Add some feature'
-Push your changes to your fork:
+<h2>License</h2>
 
-git push origin feature/my-new-feature
-Create a pull request on the original repository.
-# License
-This project is licensed under the MIT License.
+<p>This project is licensed under the MIT License.</p>
 
+</body>
+</html>
