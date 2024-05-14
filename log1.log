@@ -1,0 +1,35 @@
+2024-05-14 15:52:14,365 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 15:52:20,691 [WARNING] django.request: Not Found: /
+2024-05-14 15:52:29,089 [WARNING] django.request: Method Not Allowed: /log/
+2024-05-14 15:58:41,016 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_ingestor\views.py changed, reloading.
+2024-05-14 15:58:42,206 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 15:58:45,383 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_ingestor\views.py changed, reloading.
+2024-05-14 15:58:46,593 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 15:59:22,190 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_ingestor\views.py changed, reloading.
+2024-05-14 15:59:23,358 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 16:00:03,928 [WARNING] django.request: Not Found: /check_logs/
+2024-05-14 16:00:06,210 [WARNING] django.request: Not Found: /check_logs/
+2024-05-14 16:04:06,631 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_control_project\urls.py changed, reloading.
+2024-05-14 16:04:12,349 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 16:04:56,695 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_control_project\urls.py changed, reloading.
+2024-05-14 16:04:57,177 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 16:05:00,550 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_control_project\urls.py changed, reloading.
+2024-05-14 16:05:01,043 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 16:05:02,319 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_control_project\urls.py changed, reloading.
+2024-05-14 16:05:02,805 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 16:10:11,781 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-14 16:10:17,058 [WARNING] django.request: Not Found: /
+2024-05-14 16:10:29,032 [ERROR] django.request: Internal Server Error: /check_logs/
+Traceback (most recent call last):
+  File "C:\Users\rajsw\OneDrive\Desktop\chat360\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajsw\OneDrive\Desktop\chat360\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_ingestor\views.py", line 141, in check_logs
+    start_date = datetime.fromisoformat(start_date_str)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+2024-05-14 16:11:19,821 [INFO] django.utils.autoreload: C:\Users\rajsw\OneDrive\Desktop\chat360\log_control_project\log_control_project\urls.py changed, reloading.
+2024-05-14 16:11:20,305 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
